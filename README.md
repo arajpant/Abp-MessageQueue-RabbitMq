@@ -1,9 +1,9 @@
 # abp-io-rabbitmq-notification
 Abp-io projects with Microservice architecture implementing notification with rabbitmq.
 
--Source project as Message Producer. 
--Destination project as Message Consumer.
--RabbitMQ is the middleware which collects the messages from the Source Project and send to the Destination projects.
+- Source project as Message Producer. 
+- Destination project as Message Consumer.
+- RabbitMQ is the middleware which collects the messages from the Source Project and send to the Destination projects.
 
 # What does these application do?
 This repository contains two solutions one is source and another is destination. After executing an API in source a dummy notification id is send to destination using rabbitmq.
